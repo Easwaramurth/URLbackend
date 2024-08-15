@@ -5,7 +5,7 @@ const connectDB = async () => {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
-    console.log("MongoDB connected");
+    console.log("mongodb://localhost:27017");
   } catch (err) {
     console.error(err.message);
     process.exit(1);
