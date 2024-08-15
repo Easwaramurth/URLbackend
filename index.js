@@ -7,8 +7,7 @@ const urlRoutes = require("./routes/urlRoutes");
 
 dotenv.config();
 
-connectDB("DATABASE_URL="mongodb://localhost:27017/PersonalityTest"
-);
+connectDB("mongoose.connect");
 
 const app = express();
 
