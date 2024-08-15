@@ -7,7 +7,7 @@ const urlRoutes = require("./routes/urlRoutes");
 
 dotenv.config();
 
-connectDB();
+connectDB("mongoose.connect");
 
 const app = express();
 
